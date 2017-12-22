@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <!-- Adding a Menu button for the Side Menu -->
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-title>Drills.html  HMC  is Drills Page</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding>
+
+ <!--
+<ion-list>
+    <div *ngIf="data != undefined">
+      <div *ngFor="let gif of data.children, let i = index">
+        <ion-item *ngIf="gif.data.url.substring(gif.data.url.lastIndexOf('.'),gif.data.url.length)==='.gif'"> 
+        <img [src]="gif.data.url" /> {{gif.data.url}}
+      </ion-item>
+      </div>
+    </div>
+  </ion-list>  -->
+
+<ion-list>  
+    <div *ngIf="data != undefined">
+      <div *ngFor="let item of data.children, let i = index">      
+        <ion-item> 
+          <button ion-item (click)="goToDrillDetail(item)">
+            <ion-thumbnail item-start>
+              <img [src]="item.data.profilePic" />
+            </ion-thumbnail>
+            <h3>{{item.data.drilltype}}</h3>
+            <p>{{item.data.drillid}}</p>
+            <p>{{item.data.drillname}}</p>
+            <p>Difficulty : {{item.data.difficulty}}</p>
+             <h4>Age : {{item.data.age}}</h4>
+          </button>
+        <button ion-button clear item-end>View</button>  <!--  To be implemented -->
+        </ion-item>
+ <!--
+         <ion-item *ngFor="item item of data.children, let i = index">
+           <img [src]="item.data.profilePic" />
+  {{item.data.drilltype}}
+        {{item.data.drillid}}
+        {{item.data.drillname}}
+          </ion-item>   -->
+          
+      </div>
+    </div>
+  </ion-list> 
+ <!--
+  <ion-list>
+     <ion-label>
+          <p>label2<p>
+        </ion-label>
+   <ion-item *ngFor="let item of data">
+      <ion-item-divider sticky>
+        <ion-label>
+          {{item.product}}
+        </ion-label>
+           <ion-label>
+          <p>label2<p>
+        </ion-label>
+		    <ion-label>
+		      {{item.domain}}
+		    </ion-label>
+		    <ion-label>
+		      {{item.kind}}
+		    </ion-label>
+      </ion-item-divider>
+	  </ion-item>
+  </ion-list>-->
+
+<!--
+  <ion-list>
+   <ion-item *ngFor="let drill of id" [hidden]="drill.hide">
+      <ion-item-divider sticky>
+        <ion-label>
+          {{drill.name}}
+        </ion-label>
+		    <ion-label>
+		      {{drill.location}}
+		    </ion-label>
+		    <ion-label>
+		      {{drill.location}}
+		    </ion-label>
+      </ion-item-divider>
+	  </ion-item>
+  </ion-list>
+-->
+</ion-content>

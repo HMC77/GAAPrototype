@@ -1,0 +1,141 @@
+{
+  "kind": "Listing",
+  "data": {
+    "modhash": "",
+    "whitelist_status": "all_ads",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "1",
+          "domain": "../../assets/imgs/dribbleshoot.png",
+          "drilltype": "Football Drill 1",
+          "drillname": "Dribble & Shoot",
+          "profilePic": "../../assets/imgs/dribbleshoot.png",
+          "difficulty": "***",
+          "description": "Player at orange cone dribbles the ball around green cones, When they reach blue line, they stop and control the ball, Player then strikes for a goal between 2 red poles",
+          "teachingPoints": [
+            "Split group into even numbers with each group going through the different stations, Eyes On Ball - Close Control"
+          ],
+          "kitNeeded": "Cones footballs and Goalposts",
+          "speakerNames": [
+            "Training aSession1",
+            "Lionel Lion"
+          ],
+          "timeStart": "8:01 am",
+          "timeEnd": "9:00 am",
+          "age": "U6",
+          "tracks": [
+            "Football"
+          ]
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "2",
+          "domain": "../../assets/imgs/abc.png",
+          "drilltype": "ABC Drill 1",
+          "drillname": "Agility Balance Control",
+          "profilePic": "../../assets/imgs/abc.png",
+          "difficulty": "*",
+          "description": "Player at orange cone dribbles the ball around green cones, When they reach blue line, they stop and control the ball, Player then strikes for a goal between 2 red poles",
+          "teachingPoints": [
+            "Split group into even numbers with each group going through the different stations, Eyes On Ball - Close Control"
+          ],
+          "kitNeeded": "Cones footballs and Goalposts",
+          "speakerNames": [
+            "Training aSession1",
+            "Lionel Lion"
+          ],
+          "timeStart": "8:01 am",
+          "timeEnd": "9:00 am",
+          "age": "U6, U8, U10",
+          "tracks": [
+            "Football"
+          ]
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "3",
+          "domain": "../../assets/imgs/sliotar.png",
+          "drilltype": "Hurling Drill 1",
+          "drillname": "Empty The Square",
+          "profilePic": "../../assets/imgs/sliotar.png",
+          "difficulty": "**",
+          "description": "Player at orange cone dribbles the ball around green cones, When they reach blue line, they stop and control the ball, Player then strikes for a goal between 2 red poles",
+          "teachingPoints": [
+            "Split group into even numbers with each group going through the different stations, Eyes On Ball - Close Control"
+          ],
+          "kitNeeded": "Cones footballs and Goalposts",
+          "speakerNames": [
+            "Training aSession1",
+            "Lionel Lion"
+          ],
+          "timeStart": "8:01 am",
+          "timeEnd": "9:00 am",
+          "age": "U6, U8 ",
+          "tracks": [
+            "Football"
+          ]
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "4",
+          "domain": "../../assets/imgs/football.png",
+          "drilltype": "Football Drill 2",
+          "drillname": "Avoid the Mines",
+          "profilePic": "../../assets/imgs/football.png",
+          "difficulty": "****",
+          "description": "Player at orange cone dribbles the ball around green cones, When they reach blue line, they stop and control the ball, Player then strikes for a goal between 2 red poles",
+          "teachingPoints": [
+            "Split group into even numbers with each group going through the different stations, Eyes On Ball - Close Control"
+          ],
+          "kitNeeded": "Cones footballs and Goalposts",
+          "speakerNames": [
+            "Training aSession1",
+            "Lionel Lion"
+          ],
+          "timeStart": "8:01 am",
+          "timeEnd": "9:00 am",
+          "age": "U6, U8, U10 , U12 ",
+          "tracks": [
+            "Football"
+          ]
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "5",
+          "domain": "../../assets/imgs/football.png",
+          "drilltype": "Football Drill 3",
+          "drillname": "Kick Passing",
+          "profilePic": "../../assets/imgs/football.png",
+          "difficulty": "***",
+          "description": "Player at orange cone dribbles the ball around green cones, When they reach blue line, they stop and control the ball, Player then strikes for a goal between 2 red poles",
+          "teachingPoints": [
+            "Split group into even numbers with each group going through the different stations, Eyes On Ball - Close Control"
+          ],
+          "kitNeeded": "Cones footballs and Goalposts",
+          "speakerNames": [
+            "Training aSession1",
+            "Lionel Lion"
+          ],
+          "timeStart": "8:01 am",
+          "timeEnd": "9:00 am",
+          "age": "U6, U8, U10 , U12, U14",
+          "tracks": [
+            "Football"
+          ]
+        }
+      }
+    ],
+    "after": "t3_7g4amr",
+    "before": null
+  }
+}

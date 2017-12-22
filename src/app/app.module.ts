@@ -7,24 +7,40 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { LoginPage } from '../pages/login/login';
+import { DrillDetailPage } from '../pages/drill-detail/drill-detail';
+//A Provider to retirieve data from a JSON file : 
+import { DrillsDataProvider } from '../providers/drills-data/drills-data';
+
+import { IonicStorageModule } from '@ionic/storage';
+
+import { HttpModule } from '@angular/http';
+
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    //HomePage,
+      LoginPage,
+      DrillDetailPage,
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+   // HomePage,
+    LoginPage,
+    DrillDetailPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DrillsDataProvider
   ]
 })
 export class AppModule {}

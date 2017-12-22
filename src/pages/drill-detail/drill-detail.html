@@ -1,0 +1,58 @@
+<!--
+  Generated template for the DrillDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Drill Name : {{drillname}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<H3>Drill Number : {{drillId}} </H3>
+ <H4>Drill Name : {{drillname}} </H4>
+<div padding>
+
+  <ion-segment [(ngModel)]="drill">
+    <ion-segment-button value="Drill Info">
+      Drill Info
+    </ion-segment-button>
+    <ion-segment-button value="Teaching Points">
+      Teaching Points
+    </ion-segment-button>
+  </ion-segment>
+</div>
+
+
+<div [ngSwitch]="drill">
+  <ion-list *ngSwitchCase="'Teaching Points'">
+     <ion-item>
+      <ion-thumbnail item-start>
+      <h2>Teaching Points</h2>
+      <p> {{drillteach}} </p>
+      </ion-thumbnail>
+    </ion-item>
+    ...
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'Drill Info'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <p> {{drilldesc}} </p>
+      </ion-thumbnail>
+    </ion-item>
+  </ion-list>
+</div>
+
+<h4>{{drillname}} Information</h4>
+<img width="120" height="120" src [src]="drillpic" /> 
+<p> {{drilldesc}} </p>
+
+<button ion-button round outline>Add Drill to a Training Session TBC</button>
+
+</ion-content>
